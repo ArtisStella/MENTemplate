@@ -12,3 +12,8 @@ You need to have the [Node.js](https://nodejs.org/en/) runtime installed on your
 It goes without saying, **basic knowledge of JavaScript is to be expected**.
 
 ### Setting Up The Project
+Create and open a new folder for your project in VSCode.
+Open the integrated terminal and install express using npm
+```
+npm i express
+```
