@@ -27,4 +27,18 @@ The following command installs the express.js package which we will use for our 
 npm install express
 ```
 ### The index.js
-Next, we need to create a new file, called `index.js` in the project folder.
+Next, we need to create a new file, called `index.js` in the project folder with the following code:
+```javascript
+const express = require("express");
+const app = express();
+
+const PORT = 3769;
+
+app.get("/", (request, response) => {
+  response.send("Server is running!");
+});
+
+app.listen(PORT, () => {
+  console.log(`Server started at http://localhost:${PORT}`);
+});
+```
