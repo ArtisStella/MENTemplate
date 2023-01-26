@@ -11,6 +11,7 @@ You need to have the [Node.js](https://nodejs.org/en/) runtime installed on your
 *Recommended Extensions: Prettier*<br />
 It goes without saying, **basic knowledge of JavaScript is to be expected**.
 
+## Express Server
 ### Setting Up The Project
 Create and open a new folder for your project in VSCode.
 Open the integrated terminal and initialize your project using
@@ -21,7 +22,7 @@ This command initializes a node.js project, -y is used to use the default settin
 If succesful, you should see `package.json` and `package-lock.json` appear in your folder.
 <br />
 <br />
-The following command installs express.js package which we will use for our backend
+The following command installs the express.js package which we will use for our backend
 ```
 npm install express
 ```
