@@ -20,6 +20,7 @@ npm init -y
 This command initializes a node.js project, -y is used to use the default settings.
 If succesful, you should see `package.json` and `package-lock.json` appear in your folder.
 <br />
+<br />
 The following command installs express.js package which we will use for our backend
 ```
 npm install express
