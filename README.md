@@ -42,3 +42,8 @@ app.listen(PORT, () => {
   console.log(`Server started at http://localhost:${PORT}`);
 });
 ```
+In the first two lines we import express, and initialize it as `app`. The `require()` function is Node's way of importing external modules.
+```javascript
+const express = require("express");
+const app = express();
+```
