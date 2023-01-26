@@ -18,4 +18,7 @@ Open the integrated terminal and initialize your project using
 npm init -y
 ```
 This command initializes a node.js project, -y is used to use the default settings.
-If succesful, you should see `package.json` and `package-lock.json` in your folder.
+If succesful, you should see `package.json` and `package-lock.json` appear in your folder.
+<br />
+<br />
+Next, we need to create a new file, called `index.js` in the project folder.
