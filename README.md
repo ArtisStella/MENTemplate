@@ -13,7 +13,9 @@ It goes without saying, **basic knowledge of JavaScript is to be expected**.
 
 ### Setting Up The Project
 Create and open a new folder for your project in VSCode.
-Open the integrated terminal and install express using npm
+Open the integrated terminal and initialize your project using
 ```
-npm i express
+npm init -y
 ```
+This command initializes a node.js project, -y is used to use the default settings.
+If succesful, you should see `package.json` and `package-lock.json` in your folder.
