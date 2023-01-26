@@ -6,7 +6,9 @@ Following is a detailed guide on how to get started with this stack.
 You can also download the repository and use it if you are already familiar.
 
 ### Before We Begin
-You need to have the [Node.js](https://nodejs.org/en/) runtime installed on your machine. For Database, MongoDB should be installed, however [Atlas](https://www.mongodb.com/atlas/database) can be used as an easier alternative.<br /> 
-*It goes without saying, basic knowledge of JavaScript is to be expected.*
+You need to have the [Node.js](https://nodejs.org/en/) runtime installed on your machine. For Database, MongoDB should be installed, however [Atlas](https://www.mongodb.com/atlas/database) can be used as an easier alternative.<br />
+[VSCode](https://code.visualstudio.com/download) is recommended for development but you can use any IDE you prefer.<br />
+*Recommended Extensions: Prettier*<br />
+It goes without saying, **basic knowledge of JavaScript is to be expected**.
 
-
+### Setting Up The Project
