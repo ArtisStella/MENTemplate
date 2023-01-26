@@ -1,17 +1,22 @@
 //  IMPROTS
 const express = require("express");
 
-
 //  CONSTANTS
 const PORT = 3769;
 
-
+//  INITIALZIE THE APP
 const app = express();
 
-//  YOUR CODE GOES HERE
+//  IMPORT YOUR MODELS
+const Example = require("./models/ExampleModel");
 
+//  ROUTES/API ENDPOINTS GO HERE
 
-//  YOUR CODE ENDS HERE
+app.get("/", (request, response) => {
+  response.send("Server is running!");
+});
+
+//  END ROUTES
 
 app.listen(PORT, () => {
   console.log(`Server started at http://localhost:${PORT}`);
