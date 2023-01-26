@@ -26,5 +26,5 @@ The following command installs the express.js package which we will use for our 
 ```
 npm install express
 ```
-<br />
+### The index.js
 Next, we need to create a new file, called `index.js` in the project folder.
