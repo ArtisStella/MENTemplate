@@ -49,7 +49,7 @@ const express = require("express");
 const app = express();
 ```
 Next, we define our first api method using the app.get() function. It takes two parameters, a route and a callback function.<br />
-Whenever a `HTTP GET` request hits the server on the specified route, the callback function is executed.
+Whenever a `HTTP GET` request hits the server on the specified route, the callback function is executed. For now, we are just sending some text as reponse.
 ```javascript
 app.get("/", (request, response) => {
   response.send("Server is running!");
