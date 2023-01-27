@@ -55,3 +55,9 @@ app.get("/", (request, response) => {
   response.send("Server is running!");
 });
 ```
+Lastly, the app is set to listen for requests on our port, optionally, a callback function can be used to acknowledge that the server has indeed started.
+```js
+app.listen(PORT, () => {
+  console.log(`Server started at http://localhost:${PORT}`);
+});
+```
